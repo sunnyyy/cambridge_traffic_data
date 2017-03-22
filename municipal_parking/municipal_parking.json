@@ -1,0 +1,201 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "gpw8-aqjv",
+      "name" : "TRAFFIC_MunicipalParkingLots",
+      "averageRating" : 0,
+      "createdAt" : 1400855725,
+      "displayType" : "geoRows",
+      "downloadCount" : 10,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1449093797,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 15144275,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationGroup" : 5808245,
+      "publicationStage" : "published",
+      "tableId" : 5808245,
+      "totalTimesRated" : 0,
+      "viewCount" : 40,
+      "viewLastModified" : 1472433907,
+      "viewType" : "tabular",
+      "childViews" : [ "" ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 231953776,
+        "name" : "the_geom",
+        "dataTypeName" : "point",
+        "fieldName" : "the_geom",
+        "position" : 1,
+        "renderTypeName" : "point",
+        "tableColumnId" : 32971940,
+        "format" : { }
+      }, {
+        "id" : 231953782,
+        "name" : "ML",
+        "dataTypeName" : "text",
+        "fieldName" : "ml",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 32971946,
+        "format" : { }
+      }, {
+        "id" : 231953789,
+        "name" : "Type",
+        "dataTypeName" : "text",
+        "fieldName" : "type",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 32971953,
+        "format" : { }
+      }, {
+        "id" : 231953797,
+        "name" : "Address",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 32971961,
+        "format" : { }
+      }, {
+        "id" : 231953806,
+        "name" : "SiteName",
+        "dataTypeName" : "text",
+        "fieldName" : "sitename",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 32971970,
+        "format" : { }
+      }, {
+        "id" : 231953814,
+        "name" : "EditDate",
+        "dataTypeName" : "text",
+        "fieldName" : "editdate",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 32971979,
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "geo" : {
+          "isNbe" : true,
+          "parentUid" : "27w3-catu"
+        }
+      },
+      "owner" : {
+        "id" : "tqpm-4m48",
+        "displayName" : "Katie Grillo",
+        "profileImageUrlLarge" : "/api/users/tqpm-4m48/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/tqpm-4m48/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/tqpm-4m48/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "Katie Grillo",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "tqpm-4m48",
+        "displayName" : "Katie Grillo",
+        "profileImageUrlLarge" : "/api/users/tqpm-4m48/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/tqpm-4m48/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/tqpm-4m48/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "Katie Grillo",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ "row-6rji.bi4h~nmnr", "00000000-0000-0000-CD3A-317BDE3AA4C8", 0, 1448931346, null, 1448931346, null, "{ }", "POINT (-71.10011405790127 42.37421984582853)", "83-13", "Municipal Parking Lot", "15 Springfield Street", "Municipal Lot 14", "" ]
+, [ "row-yi3w~5w7d~3cbw", "00000000-0000-0000-D5EF-DBBF907919EE", 0, 1448931346, null, 1448931346, null, "{ }", "POINT (-71.09382672570295 42.37250175905916)", "80-142", "Municipal Parking Lot", "1010 Cambridge Street", "Municipal Lot 11", "" ]
+, [ "row-vd3s.49n6_tv63", "00000000-0000-0000-838F-A531465DB909", 0, 1448931346, null, 1448931346, null, "{ }", "POINT (-71.0885444887786 42.37249053252997)", "36-247", "Municipal Parking Lot", "7 Warren Street", "Municipal Lot 12", "" ]
+, [ "row-fc7j-66j6-6pbe", "00000000-0000-0000-B484-ECBE770D3374", 0, 1448931346, null, 1448931346, null, "{ }", "POINT (-71.10636936478792 42.365880109407655)", "119-51", "Municipal Parking Lot", "9 Pleasant Street", "Municipal Lot 9", "" ]
+, [ "row-nqcj-kkth-t266", "00000000-0000-0000-5A72-D3B5F5137F8B", 0, 1448931346, null, 1448931346, null, "{ }", "POINT (-71.10570633404319 42.36587481991757)", "105-67", "Municipal Parking Lot", "375 Green Street", "Municipal Lot 8", "" ]
+, [ "row-qqui_2bpq~nc4e", "00000000-0000-0000-7E2B-B30A242C21A2", 0, 1448931346, null, 1448931346, null, "{ }", "POINT (-71.10232762252092 42.365622696678685)", "90-55", "Municipal Parking Lot", "96 Bishop Allen Drive", "Municipal Lot 4", "" ]
+, [ "row-ptrz-4jge-k47h", "00000000-0000-0000-C207-853A104E0998", 0, 1448931346, null, 1448931346, null, "{ }", "POINT (-71.10186716749854 42.36518553590866)", "90-184", "Municipal Parking Lot", "84 Norfolk Street", "Municipal Lot 5", "" ]
+, [ "row-hn8q_hz68-s5tp", "00000000-0000-0000-8508-8F2EC5017739", 0, 1448931346, null, 1448931346, null, "{ }", "POINT (-71.1001454341974 42.3642230315623)", "91-195", "Municipal Parking Lot", "453 Massachusetts Avenue", "Municipal Lot 6", "" ]
+, [ "row-9449_id5b~h4pn", "00000000-0000-0000-A4FC-88DBB0C607F2", 0, 1448931346, null, 1448931346, null, "{ }", "POINT (-71.10371490005546 42.36408292432603)", "106-122", "Municipal Parking Garage", "260 Green Street", "Green Street Parking Garage", "" ]
+, [ "row-3jcg-9svi.yij3", "00000000-0000-0000-9AF3-D7284D4513E4", 0, 1448931346, null, 1448931346, null, "{ }", "POINT (-71.0781521402555 42.36903310778179)", "18-75", "Municipal Parking Garage", "51 First St", "East Cambridge/First Street Parking Garage", "" ]
+, [ "row-hzed-t3z3.p5im", "00000000-0000-0000-64C0-8A9BF52C4BA1", 0, 1448931346, null, 1448931346, null, "{ }", "POINT (-71.1220927896408 42.37269482149182)", "165-34", "Municipal Parking Lot", "110 Mt Auburn St", "Municipal Lot 2", "" ]
+ ]
+}

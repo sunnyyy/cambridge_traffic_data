@@ -1,0 +1,265 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "vr3p-e9ke",
+      "name" : "TRAFFIC_CommercialParking",
+      "averageRating" : 0,
+      "createdAt" : 1400855610,
+      "displayType" : "geoRows",
+      "downloadCount" : 29,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1449093315,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 15144377,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationGroup" : 5808345,
+      "publicationStage" : "published",
+      "tableId" : 5808345,
+      "totalTimesRated" : 0,
+      "viewCount" : 81,
+      "viewLastModified" : 1472433818,
+      "viewType" : "tabular",
+      "childViews" : [ "" ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 231954065,
+        "name" : "the_geom",
+        "dataTypeName" : "point",
+        "fieldName" : "the_geom",
+        "position" : 1,
+        "renderTypeName" : "point",
+        "tableColumnId" : 32972229,
+        "format" : { }
+      }, {
+        "id" : 231954070,
+        "name" : "Id",
+        "dataTypeName" : "number",
+        "fieldName" : "id",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 32972234,
+        "format" : { }
+      }, {
+        "id" : 231954076,
+        "name" : "DESCRIPTIO",
+        "dataTypeName" : "text",
+        "fieldName" : "descriptio",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 32972240,
+        "format" : { }
+      }, {
+        "id" : 231954082,
+        "name" : "ML",
+        "dataTypeName" : "text",
+        "fieldName" : "ml",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 32972246,
+        "format" : { }
+      }, {
+        "id" : 231954087,
+        "name" : "ADDRESS",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 32972251,
+        "format" : { }
+      }, {
+        "id" : 231954091,
+        "name" : "ACCESSVIA",
+        "dataTypeName" : "text",
+        "fieldName" : "accessvia",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 32972255,
+        "format" : { }
+      }, {
+        "id" : 231954095,
+        "name" : "STRUCTURE",
+        "dataTypeName" : "text",
+        "fieldName" : "structure",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 32972259,
+        "format" : { }
+      }, {
+        "id" : 231954099,
+        "name" : "OWNTYPE",
+        "dataTypeName" : "text",
+        "fieldName" : "owntype",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 32972263,
+        "format" : { }
+      }, {
+        "id" : 231954103,
+        "name" : "TOTALSP",
+        "dataTypeName" : "number",
+        "fieldName" : "totalsp",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 32972267,
+        "format" : { }
+      }, {
+        "id" : 231954105,
+        "name" : "COMMSPAC",
+        "dataTypeName" : "number",
+        "fieldName" : "commspac",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 32972269,
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "geo" : {
+          "isNbe" : true,
+          "parentUid" : "t8tm-muns"
+        }
+      },
+      "owner" : {
+        "id" : "tqpm-4m48",
+        "displayName" : "Katie Grillo",
+        "profileImageUrlLarge" : "/api/users/tqpm-4m48/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/tqpm-4m48/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/tqpm-4m48/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "Katie Grillo",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "tqpm-4m48",
+        "displayName" : "Katie Grillo",
+        "profileImageUrlLarge" : "/api/users/tqpm-4m48/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/tqpm-4m48/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/tqpm-4m48/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "Katie Grillo",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ "row-sh3i.6sne_d7ur", "00000000-0000-0000-9B60-D2219FE59CAA", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.10460204824076 42.3751121286875)", "0", "Cambridge Hospital Garage", "111-56", "1493 Cambridge Street", "Cambridge Street", "Garage", "Private", "310.0", "150" ]
+, [ "row-cd8r.b2i7-rfbu", "00000000-0000-0000-E3A1-22D4BF1AFC55", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.08950227666442 42.36798309562023)", "0", "1 Kendall Square Garage", "39-174", "389 Binney Street / 205 B", "Broadway", "Garage", "Private", "1566.0", "1050" ]
+, [ "row-uj55-ijfj.b7pv", "00000000-0000-0000-3205-ADD092CB8391", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.0938267261845 42.37250175926171)", "0", "Municipal Lot #11", "80-142", "984 Cambridge Street", "Cambridge or Windsor", "Lot", "Municipal", "15.0", "15" ]
+, [ "row-ze6a-budu-peqp", "00000000-0000-0000-B49E-AC78BA0C4DEF", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.07653876387539 42.37029378871318)", "0", "Monitor Building Public Garage", "8-75", "2 Canal Park", "Monsignor O'Brien Highway", "Garage", "Private", "177.0", "50" ]
+, [ "row-67yx_p4gi_7vwn", "00000000-0000-0000-A859-286E7A1C1854", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.07686146698411 42.36825837029388)", "0", "Cambridgeside Galleria", "8-1", "78-90 First Street", "Lower: Land Blvd. Camb", "Garage", "Private", "2538.0", "2538" ]
+, [ "row-3z3c_x38i~ir28", "00000000-0000-0000-1D48-4FE8685C4AA1", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.07815214046688 42.3690331080737)", "0", "First Street Municipal Garage", "18-75", "11 Spring / 51 First St.", "Spring St.", "Garage", "Municipal", "1110.0", "1110" ]
+, [ "row-aqva-mwiq.f3mm", "00000000-0000-0000-87C1-777F88B1895D", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.07867121989308 42.367693162625606)", "0", "Bent Realty Trust", "10-33", "29 Charles Street", "Hurley St.", "Garage", "Private", "75.0", "75" ]
+, [ "row-wgi7-mgyf_z2b4", "00000000-0000-0000-2B08-C367428E6F8F", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.08854448860617 42.37249053271511)", "0", "Municipal Lot #12", "36-247", "9 Warren Street", "Warren/Marion St", "Lot", "Municipal", "31.0", "31" ]
+, [ "row-j2kj~qxjp.xiun", "00000000-0000-0000-0A9C-ECA496C816C2", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.08758901172095 42.36541384182496)", "0", "Cambridge Center Garage", "30-37", "115 Broadway", "Binney/Broadway", "Garage", "Private", "1170.0", "500" ]
+, [ "row-wupe.ehqs_bctw", "00000000-0000-0000-52CA-0365D769CA12", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.08352437259977 42.362755198902164)", "0", "MIT Badger Building", "14-31", "One Broadway", "Broadway or 3rd", "Garage/Lot", "Private", "430.0", "430" ]
+, [ "row-kd6e.5bar_vv3y", "00000000-0000-0000-72F2-E39120A7382F", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.08288098401705 42.36351296370268)", "0", "CRP Garage 1", "14-1038", "354 Third Street", "Third St", "Garage", "Private", "1409.0", "150" ]
+, [ "row-ei3b_ai9x~t6uj", "00000000-0000-0000-6EF2-0077B263CBE4", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.08643353555648 42.363125963940114)", "0", "4 Cambridge Center", "44-95", "4 Cambridge Ctr", "Ames", "Garage", "Private", "875.0", "875" ]
+, [ "row-vzqf.3uxn~ernp", "00000000-0000-0000-B49C-A8DFDE61EB11", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.07910393766956 42.371226169699874)", "0", "Barrister Trust", "20-31", "201 Cambridge Street", "Cambridge St.", "Lot", "Private", "15.0", "15" ]
+, [ "row-rk4a~kvzy.aga2", "00000000-0000-0000-3490-B333A6C7DF1A", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.0925045345524 42.3677860648875)", "0", "45 Webster Avenue", "40-139", "45 Webster Avenue", "Webster Ave", "Lot", "Private", "8.0", "8" ]
+, [ "row-zu37_igrq_ayyg", "00000000-0000-0000-8C7A-88F592D82E43", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.10014543375401 42.36422303169002)", "0", "Municipal Lot #6", "91-195", "38 Bishop Allen Drive", "Bishop Allen Dr", "Lot", "Municipal", "79.0", "45" ]
+, [ "row-ixtf_f8za-wt5g", "00000000-0000-0000-4D0C-3D7BD1F8E324", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.10186716709565 42.36518553606803)", "0", "Municipal Lot #5", "90-184", "84 Bishop Allen Drive", "Bishop Allen Dr. & Nor", "Lot", "Municipal", "82.0", "82" ]
+, [ "row-xb4r.vgyv.wyyx", "00000000-0000-0000-DE5F-19CE74149FD4", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.10232762284272 42.365622696833746)", "0", "Municipal Lot #4", "90-55", "96 Bishop Allen Drive", "Bishop Allen Dr.", "Lot", "Municipal", "18.0", "18" ]
+, [ "row-fkqe~g8bv-uevc", "00000000-0000-0000-946B-C9160A0ABB3E", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.10367336240948 42.36413941138927)", "0", "Green Street Garage", "106-122", "260 Green St", "Green St", "Garage", "Municipal", "290.0", "290" ]
+, [ "row-dwcu.uyn8-cf5t", "00000000-0000-0000-E8C4-74C1AB93E579", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.09928052510621 42.3614068793458)", "0", "Shaw's Supermarket Garage", "69-62", "55 Franklin Street", "Franklin St", "Garage", "Private", "1002.0", "500" ]
+, [ "row-2u3w.3cuq-7exh", "00000000-0000-0000-175E-74D63FF86D71", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.10711117967223 42.36628305908648)", "0", "YMCA Lot", "119-89", "438 Green Street", "Green Street", "Lot", "Private", "106.0", "86" ]
+, [ "row-pc4x~9np9~fq83", "00000000-0000-0000-3D45-B11BEB7B1CEA", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.10636936479311 42.36588010950673)", "0", "Municipal Lot #9", "119-51", "9 Pleasant Street", "Green St. & Pleasant S", "Lot", "Municipal", "17.0", "17" ]
+, [ "row-ndkv~jgqj-e6sn", "00000000-0000-0000-AF22-A0FFACDDF63E", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.10570633430721 42.36587481984354)", "0", "Municipal Lot #8", "105-67", "375 Green Street", "Green & Pleasant", "Lot", "Municipal", "16.0", "16" ]
+, [ "row-keyk~md24_tq43", "00000000-0000-0000-9CDF-4D27CFFEC170", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.1107307520969 42.36873027258501)", "0", "Cambridge College Garage", "121-113", "1000 Massachusetts Avenue", "Bay St", "Garage", "Private", "189.0", "189" ]
+, [ "row-qwqs_v697_3n6c", "00000000-0000-0000-2D00-A025BEDC86FF", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.12400410098627 42.37264822633497)", "0", "University Place Garage", "165-53", "124 Mt. Auburn Street", "University Road", "Garage", "Private", "450.0", "200" ]
+, [ "row-ppq7.fheb-w5p9", "00000000-0000-0000-DE15-8808CB86627D", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.11864304855351 42.37263665955422)", "0", "Holyoke Center Parking Garage", "160-14", "17 Holyoke Street", "Holyoke St.", "Garage", "Private", "109.0", "109" ]
+, [ "row-jan5~imkw.e7ty", "00000000-0000-0000-BAB1-316942D99F41", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.12342409832681 42.37238748106616)", "0", "Charles Square Garage", "165-55", "14 University Road", "Bennet St.", "Garage", "Private", "686.0", "600" ]
+, [ "row-s6kr~kmkd_4vq7", "00000000-0000-0000-2A6D-872889CAAC37", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.12115322633304 42.371862935233075)", "0", "Eliot Street Garage", "162-66", "65 John F. Kennedy Street", "Eliot St.", "Garage", "Private", "265.0", "265" ]
+, [ "row-vzh4_9btz~34mv", "00000000-0000-0000-F35D-772BA9AE8BD3", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.12209278953709 42.372694821498854)", "0", "Municipal Lot #2", "165-34", "110 Mt. Auburn Street", "Mt. Auburn or Bennett", "Lotunderbldg", "Municipal", "79.0", "42" ]
+, [ "row-gkwz_tg95.qyv6", "00000000-0000-0000-BA8F-2B5AD4BBE4FF", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.12065008934863 42.374563312569904)", "0", "Church Street Lot", "169-12", "41 Church Street", "Church St.", "Lot", "Private", "122.0", "122" ]
+, [ "row-9sf9_ueff-4i4u", "00000000-0000-0000-FCAD-910B3267CD78", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.1146702148397 42.37188638289983)", "0", "The Inn At Harvard", "134-1", "1201 Massachusetts Avenue", "Mass. Ave", "Garage", "Private", "58.0", "50" ]
+, [ "row-7nyu-nfd7-a7sh", "00000000-0000-0000-84CE-A75AA5A2A1F2", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.14197027759144 42.39569710912441)", "0", "Alewife MBTA Station", "269.5-A5", "5-7 CambridgePark Dr.", "Alewife Station Access", "Garage", "MBTA", "2733.0", "2733" ]
+, [ "row-5pis_iatu-pgz3", "00000000-0000-0000-6F6B-15AFC6F23D85", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.0947922315999 42.36046537293463)", "0", "MIT", "53-54", "139 Massachusetts Ave", "Mass Ave", "Lot", "Private", "21.0", "21" ]
+, [ "row-ay8d.rf7e_5s2k", "00000000-0000-0000-79DF-12823D673CD4", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.10011405764003 42.374219845481235)", "0", "Municipal Lot #14", "83-13", "15 Springfield St", "Springfield St", "Lot", "Municipal", "30.0", "30" ]
+, [ "row-6b9b~spd8_8zhi", "00000000-0000-0000-B8F7-67AD8BF3A948", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.10561754082957 42.35451444944406)", "0", "Hyatt", "63-134", "575 Memorial Drive", "Amesbury St", "Garage", "Private", "458.0", "458" ]
+, [ "row-ky54-256s_xv27", "00000000-0000-0000-3B33-A42219C3E942", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.07517527356538 42.36665230367978)", "0", "Royal Sonesta", "9-31", "5 Cambridge Parkway", "Land Blvd", "Garage", "Private", "180.0", "60" ]
+, [ "row-na99.zyqy_w2nt", "00000000-0000-0000-3603-8AFA0E907501", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.07244829388769 42.36830860461085)", "0", "Museum of Science", "9-90", "14 Msg OBrien Hwy", "Msg O'Brien", "Garage", "Private", "994.0", "994" ]
+, [ "row-3ym6_uu6c.b3j7", "00000000-0000-0000-BF44-457B193BDE18", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.088623591475 42.3635615233136)", "0", "7 Cambridge Center", "43-76", "7 Cambridge Ctr", "Ames", "Garage", "Private", "731.0", "731" ]
+, [ "row-kuu5.rmt3.t7wv", "00000000-0000-0000-1024-08EF1218DCC8", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.0808039868643 42.36775351579294)", "0", "198 Third Street", "17-88", "198 Third Street", "Charles St", "Lot", "Private", "8.0", "8" ]
+, [ "row-rw3a-jud6~9iij", "00000000-0000-0000-C683-16B16FB617BD", 0, 1448931517, null, 1448931517, null, "{ }", "POINT (-71.10691135616594 42.375407232888236)", "0", "Spaulding Hospital", "140-124", "1575 Cambridge Street", "", "Lot", "Private", "362.0", "50" ]
+ ]
+}
