@@ -22,7 +22,7 @@ Datasets+files include...
 
     `sanitized_parking_tickets.csv` contains only the geographic coordinates of every parking ticket in the original dataset.
 
-    the files labeled `sanitized_tickets-[VIOLATION TYPE].csv` contain the geographic coordinates of every parking ticket _of a particular type of violation_ from the original dataset. Where applicable, different violation types have been grouped together for similarity.
+    The files labeled `sanitized_tickets-[VIOLATION TYPE].csv` contain the geographic coordinates of every parking ticket _of a particular type of violation_ from the original dataset. Where applicable, different violation types have been grouped together for similarity.
 
 - [police_crash_data](https://data.cambridgema.gov/Public-Safety/Police-Department-Crash-Data-Historical/ybny-g9cv), Jan 2015 - Jan 2016
   - NOTE: Sanitized version contains only information from crashes involving two vehicles. Information includes geographic coordinates and the two vehicle types (e.g. auto, truck).
